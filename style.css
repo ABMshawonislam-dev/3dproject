@@ -83,26 +83,22 @@ html {
     margin-bottom: 3px;
     padding: 10px;
     height: 55px;
-    width: 55px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
-.option:hover {
-    border-left: 5px solid white;
-    width: 58px;
-}
-
 .option.--is-active {
-    border-right: 3px solid red;
+    border-right: 3px solid blue;
     width: 58px;
     cursor: default;
 }
 
 .option.--is-active:hover {
     border-left: none;
+    border-right: 3px solid black;
 }
 
 .option img {
