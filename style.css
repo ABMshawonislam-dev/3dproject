@@ -27,6 +27,11 @@ html {
     box-sizing: border-box;
 }
 
+marquee{
+    position: absolute;
+    top: 0
+}
+
 .frame {
     top: 0;
     position: absolute;
