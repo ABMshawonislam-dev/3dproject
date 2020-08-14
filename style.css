@@ -90,15 +90,19 @@ html {
     cursor: pointer;
 }
 
+.option:hover{
+    border-right: 3px solid blue;
+}
+
 .option.--is-active {
     border-right: 3px solid blue;
-    width: 58px;
-    cursor: default;
+    cursor: pointer;
 }
 
 .option.--is-active:hover {
     border-left: none;
     border-right: 3px solid black;
+    cursor: pointer;
 }
 
 .option img {
